@@ -19,14 +19,10 @@
   justify-content: center;
 }
 
-.row-3 {
+.image-width {
   width: 95%;
 }
 
 .col-two-thirds {
-  flex-basis: calc(200% / 3);
-}
-
-.col-mario {
   flex-basis: calc(200% / 3);
 }
