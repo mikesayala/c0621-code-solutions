@@ -1,0 +1,28 @@
+.container {
+  margin: auto;
+  width: 75%;
+}
+
+.row {
+  display: flex;
+}
+
+.col-3 {
+  flex-basis: calc (100% / 3);
+}
+
+.col-4 {
+  flex-basis: 25%;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.image-width {
+  width: 95%;
+}
+
+.col-two-thirds {
+  flex-basis: calc(200% / 3);
+}
