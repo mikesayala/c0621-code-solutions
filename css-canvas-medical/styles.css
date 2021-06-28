@@ -197,7 +197,11 @@ h6 {
 }
 
 .product-height {
-  height: 50vh;
+  height: 46vh;
+}
+
+.white-logo-height {
+  height: 47vh;
 }
 
 a.padding-link {
@@ -280,4 +284,9 @@ li {
 
 .no-underline {
   text-decoration: none;
+}
+
+.tiempos-headline {
+  font-family: 'Tiempos Headline', sans-serif;
+  font-weight: 300;
 }
