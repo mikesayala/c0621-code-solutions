@@ -152,7 +152,7 @@ h6 {
 }
 
 .button {
-  padding: 10px 30px;
+  padding: 15px 30px;
   background-color: #294363;
   text-decoration: none;
   color: white;
@@ -197,7 +197,7 @@ h6 {
 }
 
 .product-height {
-  height: 46vh;
+  height: 44vh;
 }
 
 .white-logo-height {
@@ -218,7 +218,6 @@ a.padding-link {
   background-image: url('./images/hero.jpg');
   background-size: cover;
   height: 450px;
-  width: 80%;
   position: relative;
 }
 
@@ -244,7 +243,7 @@ a.padding-link {
 .hero-button {
   bottom: 4rem;
   left: 4rem;
-  padding: 10px 35px;
+  padding: 12px 35px;
 }
 
 .hero-p {
