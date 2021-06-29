@@ -105,7 +105,7 @@ h6 {
   align-items: center;
 }
 
-.row-1 {
+.header-row {
   width: 100%;
   margin: auto;
   justify-content: space-between;
@@ -114,21 +114,21 @@ h6 {
   padding-bottom: 15px;
 }
 
-.row-3 {
+.locations-row {
   background-color: #fafafa;
 }
 
-.row-4 {
+.schedule-row {
   width: 90%;
   margin: 10px auto;
 }
 
-.row-5 {
+.white-logo-row {
   background-color: #525351;
   height: 50vh;
 }
 
-.row-6 {
+.footer-row {
   width: 100%;
   margin: auto;
   padding: 40px;
