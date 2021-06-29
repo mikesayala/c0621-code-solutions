@@ -5,8 +5,8 @@ var orderHistory = [
     total: '$34.00',
     shippedTo: 'JS Masher',
     delivered: 'August 8, 2020',
-    productSupport: 'no',
-    handedDirectlyToResident: 'no',
+    productSupport: false,
+    handedDirectlyToResident: false,
     item: [
       {
         title: 'Javascript for impatient programmers by Rauschmayer, Dr. Axel',
@@ -23,8 +23,8 @@ var orderHistory = [
     total: '$44.53',
     shippedTo: 'JS Masher',
     delivered: 'July 20, 2020',
-    productSupport: 'no',
-    handedDirectlyToResident: 'yes',
+    productSupport: false,
+    handedDirectlyToResident: true,
     item: [
       {
         title: 'The Timeless Way of Building by Alexander, Christopher',
@@ -41,8 +41,8 @@ var orderHistory = [
     total: '$17.22',
     shippedTo: 'JS Masher',
     delivered: 'July 7, 2020',
-    productSupport: 'no',
-    handedDirectlyToResident: 'yes',
+    productSupport: false,
+    handedDirectlyToResident: true,
     item: [
       {
         title: 'GameCube controller Adapter',
@@ -59,8 +59,8 @@ var orderHistory = [
     total: '$138.93',
     shippedTo: 'JS Masher',
     delivered: 'July 5, 2020',
-    productSupport: 'yes',
-    handedDirectlyToResident: 'no',
+    productSupport: true,
+    handedDirectlyToResident: false,
     item: [
       {
         title: 'GameCube Controller',
