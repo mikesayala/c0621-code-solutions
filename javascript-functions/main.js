@@ -26,7 +26,7 @@ var getFirstNameResult = getFirstName({ firstName: 'Sand', lastName: 'Wich' });
 console.log('The first name is', getFirstNameResult);
 
 function getLastElement(array) {
-  var lastEl = array.splice(array.length - 1);
+  var lastEl = array[array.length - 1];
   return lastEl;
 }
 var getLastElementResult = getLastElement(['propane', 'and', 'propane', 'accessories']);
