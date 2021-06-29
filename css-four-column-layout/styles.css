@@ -1,0 +1,58 @@
+h2 {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+}
+
+h3 {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Barlow', sans-serif;
+  font-size: 12px;
+  margin-top: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  background-color: #f7f8fa;
+  padding-bottom: 10px;
+}
+
+.main-row {
+  width: 80%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.col-full {
+  width: 100%;
+}
+
+.header-row {
+  margin: auto;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.col-4th {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.phone-img {
+  width: 75%;
+}
+
+.icon-img {
+  width: 20%;
+}
