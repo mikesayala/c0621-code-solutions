@@ -31,10 +31,6 @@ p {
   display: flex;
 }
 
-.col-full {
-  width: 100%;
-}
-
 .header-row {
   margin: auto;
 }
