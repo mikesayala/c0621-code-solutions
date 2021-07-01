@@ -1,8 +1,7 @@
 /* exported ransomCase */
 function ransomCase(string) {
-  var str = '';
-  for (var i = 0; i < string.length; i++) {
-    str = string.substr(0, i) + string[i].toUpperCase() + string.substr(i + 1);
+  for (var i = 0; i < string.length; i = i + 2) {
+    string = string.substr(0, i) + string[i].toLowerCase() + string.substr(i + 1).toUpperCase();
   }
-  return str;
+  return string;
 }
