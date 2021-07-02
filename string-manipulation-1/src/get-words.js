@@ -3,10 +3,7 @@ function getWords(string) {
   var arr = [];
   if (string === '') {
     return arr;
+  } else {
+    return string.split(' ');
   }
-  for (var i = 0; i < string.length; i++) {
-    var word = string.split(' ');
-    arr.push(word);
-  }
-  return word;
 }

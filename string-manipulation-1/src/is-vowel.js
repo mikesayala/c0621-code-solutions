@@ -1,9 +1,8 @@
 /* exported isVowel */
 function isVowel(character) {
-  var char = character.toLowerCase();
-  if (char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u') {
+  var lowerCase = character.toLowerCase();
+  if (lowerCase === 'a' || lowerCase === 'e' || lowerCase === 'i' || lowerCase === 'o' || lowerCase === 'u') {
     return true;
-  } else {
-    return false;
   }
+  return false;
 }
