@@ -2,9 +2,7 @@
 function getKeys(object) {
   var arr = [];
   for (var key in object) {
-    if (key in object) {
-      arr.push(key);
-    }
+    arr.push(key);
   }
   return arr;
 }
