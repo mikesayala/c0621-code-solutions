@@ -4,10 +4,8 @@ var $off = document.querySelector('.off');
 var $on = document.querySelector('.on');
 
 function handleClick(event) {
-  if (event.target) {
-    $on.classList.toggle('hidden');
-    $off.classList.remove('hidden');
-  }
+  $on.classList.toggle('hidden');
+  $off.classList.remove('hidden');
 }
 
 $circleOn.addEventListener('click', handleClick);
