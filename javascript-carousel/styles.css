@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.height {
+  height: 80vh;
+}
+
+.column {
+  display: flex;
+}
+
+.col-third {
+  flex-basis: calc(100% / 3);
+}
+
+.font-48 {
+  font-size: 48px;
+}
+
+.circle-row {
+  width: 95px;
+  margin: 10px auto;
+  font-size: 30px;
+}
+
+.margin-10 {
+  margin: 10px;
+}
+
+.hidden {
+  display: none;
+}

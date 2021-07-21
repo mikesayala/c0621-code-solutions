@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Carousel</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-center height align-center">
+      <div class="column col-third justify-center font-48">
+        <i class="fas fa-less-than"></i>
+      </div>
+      <div class="column col-third bulb view">
+        <img src="images/001.png" alt="" class="view" data-index="1">
+        <img src="images/004.png" alt="" class="hidden" data-index="2">
+        <img src="images/007.png" alt="" class="hidden" data-index="3">
+        <img src="images/025.png" alt="" class="hidden" data-index="4">
+        <img src="images/039.png" alt="" class="hidden" data-index="5">
+      </div>
+      <div class="column col-third justify-center font-48">
+        <i class="fas fa-greater-than"></i>
+      </div>
+    </div>
+    <div class="row justify-around circle-row">
+      <i class="fas fa-circle margin-10" data-index="1"></i>
+      <i class="far fa-circle margin-10" data-index="2"></i>
+      <i class="far fa-circle margin-10" data-index="3"></i>
+      <i class="far fa-circle margin-10" data-index="4"></i>
+      <i class="far fa-circle margin-10" data-index="5"></i>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
