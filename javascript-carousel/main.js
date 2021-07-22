@@ -3,6 +3,7 @@ var $rightArrow = document.querySelector('.fa-greater-than');
 var $img = document.querySelectorAll('img');
 var $circle = document.querySelectorAll('.margin-10');
 var counter = 0;
+var count = null;
 
 function activate(image, circle) {
   image[counter].className = 'view';
@@ -22,12 +23,16 @@ function handleLeftClick(event) {
     counter = counter - 1;
   }
   activate($img, $circle);
+  clearInterval(count);
+  count = setInterval(handleRightClick, 1000);
 }
 
 function handleRightClick(event) {
   deactivate($img, $circle);
   counter = (counter + 1) % $img.length;
   activate($img, $circle);
+  clearInterval(count);
+  count = setInterval(handleRightClick, 1000);
 }
 
 function circleClick(event) {
@@ -37,9 +42,15 @@ function circleClick(event) {
     counter = index - 1;
   }
   activate($img, $circle);
+  clearInterval(count);
+  count = setInterval(handleRightClick, 1000);
 }
 
-setInterval(handleRightClick, 3000);
+count = setInterval(function () {
+  deactivate($img, $circle);
+  counter = (counter + 1) % $img.length;
+  activate($img, $circle);
+}, 1000);
 window.addEventListener('click', circleClick);
 $leftArrow.addEventListener('click', handleLeftClick);
 $rightArrow.addEventListener('click', handleRightClick);
