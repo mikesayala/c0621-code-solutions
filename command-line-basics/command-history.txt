@@ -1,0 +1,743 @@
+    1  exit
+    2  whoami
+    3  git config --global user.name "Mike Ayala"
+    4  git config --global user.email "ayala.s.mike@gmail.com"
+    5  git config --global --list
+    6  git status
+    7  cd ~/repos/c0521-code-solutions/
+    8  git status
+    9  git checkout javascript-carousel
+   10  git status
+   11  git add javascript-carousel
+   12  git status
+   13  git commit -m "in progress"
+   14  git push origin javascript-carousel
+   15  git status
+   16  git add javascript-carousel
+   17  git status
+   18  git add javascript-carousel
+   19  git status
+   20  git commit -m "completed javascript-carousel"
+   21  git status
+   22  git push origin javascript-carousel
+   23  git checkout master
+   24  git status
+   25  git checkout -b http-messages
+   26  cd ~/repos/c0521-code-solutions/http-messages/
+   27  git status
+   28  http http://example.com
+   29  http --verbose http://www.example.com
+   30  http --body GET https://jsonplaceholder.typicode.com/users > users.json
+   31  http --body GET http://example.com > index.html
+   32  git status
+   33  git add ./
+   34  git status
+   35  git commit -m "completed http-messages"
+   36  git push origin http-messages
+   37  git checkout master
+   38  git status
+   39  cd ~/repos/c0521-code-solutions/
+   40  git status
+   41  git pull origin master
+   42  git status
+   43  git pull origin master
+   44  git checkout -b javascript-ajax
+   45  cd ~/repos/c0521-code-solutions/javascript-ajax
+   46  git status
+   47  cd ~/repos/c0521-code-solutions/javascript-ajax
+   48  git status
+   49  git add ./
+   50  git status
+   51  git commit -m "completed javascript-ajax"
+   52  git push origin javascript-ajax
+   53  git checkout master
+   54  cd ~/repos/c0521-code-solutions/
+   55  git status
+   56  git pull origin master
+   57  git status
+   58  pwd
+   59  git checkout css-canvas-medical
+   60  git status
+   61  git add css-canvas-medical
+   62  git status
+   63  git commit -m "took out unnecessary css code"
+   64  git status
+   65  git checkout master
+   66  git checkout css-canvas-medical
+   67  git push origin css-canvas-medical
+   68  git checkout master
+   69  git status
+   70  cd ~/repos
+   71  git status
+   72  git clone git@github.com:mikesayala/ajax-project.git
+   73  cd ajax-project
+   74  npm ci
+   75  git status
+   76  git checkout -b issue-1-user-can-view-random-wallpapers
+   77  git status
+   78  git add css/layout.css
+   79  gitstatus
+   80  git status
+   81  git add css/styles.css
+   82  git add index.html
+   83  git add images/imgbin-cartoon-illustration-girls-driving-TgdsEykwLpQqaLXyPBCWpQkVE.jpeg
+   84  git status
+   85  git add images/imgbin-cartoon-illustration-girls-driving-TgdsEYkwLpQqaLXyPBCWpQkVE.jpeg
+   86  git status
+   87  git commit -m "create an html skeleton with tags and add CSS to the page. Work on web responsiveness of the desktop version."
+   88  git push origin issue-1-user-can-view-random-wallpapers
+   89  git status
+   90  git add css/layout.css
+   91  git add css/styles.css
+   92  git status
+   93  git add index.html
+   94  git add js/main.js
+   95  git status
+   96  git commit -m "create a DOM tree that will have wallpapers showing inside the body."
+   97  git push origin issue-1-user-can-view-random-wallpapers
+   98  git status
+   99  git add css/layout.css
+  100  git add css/styles.css
+  101  git add js/main.js
+  102  git status
+  103  git commit -m "everything from set it up to have 3 wallpapers on mobile to 9 on desktop and making sure that all click targets show a cursor pointer when hovered over the mouse."
+  104  git push origin issue-1-user-can-view-random-wallpapers
+  105  git status
+  106  git add css/layout.css
+  107  git add css/styles.css
+  108  git add js/main.js
+  109  git status
+  110  git commit -m "finished all clean up tasks"
+  111  git push origin issue-1-user-can-view-random-wallpapers
+  112  git status
+  113  git add css/styles.css
+  114  git status
+  115  git commit -m "forgot to change one style on the row"
+  116  git status
+  117  git push origin issue-1-user-can-view-random-wallpapers
+  118  git status
+  119  git add css/styles.css 
+  120  git commit -m "fixed an issue with sizing"
+  121  git push origin issue-1-user-can-view-random-wallpapers
+  122  git checkout master
+  123  git status
+  124  git pull origin master
+  125  git checkout -b issue-2-user-can-search-for-a-wallpaper-with-a-search-term
+  126  git status
+  127  git add css/layout.css
+  128  git add css/styles.css
+  129  git add index.html
+  130  git status
+  131  git commit -m "add a search button next to the header"
+  132  git push origin issue-2-user-can-search-for-a-wallpaper-with-a-search-term
+  133  git status
+  134  git add index.html
+  135  git add js/main.js
+  136  git status
+  137  git commit -m "Confirm that all previous functionality still works without errors."
+  138  git push origin issue-2-user-can-search-for-a-wallpaper-with-a-search-term
+  139  git status
+  140  git add css/layout.css
+  141  git add css/styles.css
+  142  git add index.html
+  143  git add js/main.js
+  144  git status
+  145  git commit -m "Create GIFs of the feature being used on both mobile and desktop screen sizes for inclusion in Pull Request."
+  146  git push origin issue-2-user-can-search-for-a-wallpaper-with-a-search-term
+  147  git checkout master
+  148  git status
+  149  git pull origin master
+  150  git status
+  151  git checkout -b issue-3-user-can-search-by-color
+  152  git status
+  153  git add css/styles.css
+  154  git add index.html
+  155  git add js/main.js
+  156  git status
+  157  git commit -m "in progress for feature 3"
+  158  git push origin issue-3-user-can-search-by-color
+  159  git status
+  160  git add index.html
+  161  git add js/main.js
+  162  git status
+  163  git commit -m "in progress feature 3"
+  164  git push origin issue-3-user-can-saerch-by-color
+  165  git push origin issue-3-user-can-search-by-color
+  166  git status
+  167  git add css/styles.css
+  168  git add index.html
+  169  git add js/main.js
+  170  git status
+  171  git commit -m "create a function that sends a GET request for the color selected and populates wallpapers base off that color."
+  172  git push origin issue-3-user-can-search-by-color
+  173  git status
+  174  git add css/layout.css
+  175  git add css/styles.css
+  176  git add index.html
+  177  git add js/main.js
+  178  git add css/color.css
+  179  git status
+  180  git commit -m "⚙️ Feature
+  181  What capability will users have when this feature is merged?
+  182  Now there's even more choices because users will be able to sort by color of the wallpaper as well.
+  183  📐 Functionality
+  184  A description of how the application will work from the perspective of the user.
+  185  A user can choose a color by clicking the color input and searching for wallpapers that way.
+  186  🖼️ Wireframes
+  187  Wireframe screenshot(s) of what the app should look like when it is complete.
+  188  Screen Shot 2021-06-11 at 11 39 17 AM
+  189  Screen Shot 2021-06-11 at 11 39 51 AM
+  190  ✅ Task List
+  191  Commit checklist for tasks needed to complete the feature.
+  192   Add a color input to the HTML next to the search bar
+  193   create a function that sends a GET request for the color selected and populates wallpapers base off that color.
+  194   create a new submit handler for the color function.
+  195   Make sure that click targets are either <a> or <button> elements.
+  196   Make sure that all click targets show a cursor: pointer when hovered with the mouse.
+  197  Clean Up
+  198   Remove all buttons and placeholders that do not serve the functionality of the feature.
+  199   Remove all console logs.
+  200   Remove all commented out code.
+  201   Remove all CSS properties that have no effect.
+  202   Check all code for proper formatting and indentation.
+  203   Confirm that there are no errors in the console while using the application.
+  204   Confirm that all previous functionality still works without errors.
+  205   Confirm that the user interface looks natural on both mobile and desktop screens.
+  206  git status
+  207  "
+  208  git push origin issue-3-user-can-search-by-color
+  209  git status
+  210  git add css/color.css
+  211  git add index.html
+  212  git status
+  213  git commit -m "changed class names from index to color names"
+  214  git push origin issue-3-users-can-search-by-color
+  215  git push origin issue-3-user-can-search-by-color
+  216  git checkout master
+  217  git pull origin master
+  218  git status
+  219  git add css/styles.css
+  220  git add index.html
+  221  git add js/main.js
+  222  git status
+  223  git checkout -b issue-4-user-can-save-their-favorite-wallpapers
+  224  git status
+  225  git commit -m "add an album icon and link"
+  226  git push origin issue-4-user-can-save-their-favorite-wallpapers
+  227  git status
+  228  git add css/styles.css
+  229  git add index.html
+  230  git add js/main.js
+  231  git status
+  232  git commit -m "hide the search form container when we click the album container and vice-versa."
+  233  git push origin issue-4-user-can-save-their-favorite-wallpapers
+  234  git status
+  235  git add css/styles.css
+  236  git add index.html
+  237  git add js/data.js
+  238  git add js/main.js
+  239  git status
+  240  git commit -m "set up local storage to save the wallpapers into the album."
+  241  git push origin issue-4-user-can-view-their-favorite-wallpapers
+  242  git push origin issue-4-user-can-save-their-favorite-wallpapers
+  243  git status
+  244  git add css/layout.css
+  245  git add css/styles.css
+  246  git add index.html
+  247  git status
+  248  git commit -m "issue-4-user-can-save-their-favorite-wallpapers"
+  249  git push origin issue-4-user-can-save-their-favorite-wallpapers
+  250  git checkout master
+  251  git checkout issue-4-user-can-save-their-favorite-wallpapers 
+  252  git status
+  253  git diff
+  254  git status
+  255  git reset --hard head
+  256  git status
+  257  'git checkout issue-4-user-can-save-their-favorite-wallpapers
+  258  '
+  259  git checkout issue-4-user-can-save-their-favorite-wallpapers
+  260  git status
+  261  git add css/layout.css
+  262  git add css/styles.css
+  263  git add index.html
+  264  git status
+  265  git commit -m "moved search form from the main container to the header and fixed the CSS"
+  266  git push origin issue-4-user-can-save-their-favorite-wallpapers
+  267  git checkout master
+  268  git pull origin master
+  269  git status
+  270  git checkout -b issue-5-user-can-delete-favorite-wallpapers
+  271  git status
+  272  pwd
+  273  cd ~/repos/ajax-project/
+  274  git status
+  275  git add imges/carGirl.png
+  276  git add index.html
+  277  git status
+  278  git add images/carGirl.png
+  279  git status
+  280  git commit -m "added new png for car girl image"
+  281  git push origin issue-5-user-can-delete-favorite-wallpapers 
+  282  git status
+  283  git add js/data.js
+  284  git add js/main.js
+  285  git status
+  286  git commit -m "created the function to delete data from the data thumbs array"
+  287  git push origin issue-5-user-can-delete-favorite-wallpapers 
+  288  git status
+  289  git add css/layout.css
+  290  git add css/styles.css
+  291  git add index.html
+  292  git add js/main.js
+  293  git status
+  294  git commit -m "fixed header to be much cleaner"
+  295  git push origin issue-5-user-can-delete-favorite-wallpapers 
+  296  git status
+  297  git add js/main.js
+  298  git status
+  299  git commit -m "cleaned up commented out code"
+  300  git push origin issue-5-user-can-delete-favorite-wallpapers 
+  301  git status
+  302  git add css/color.css
+  303  git add index.html
+  304  git add js/main.js
+  305  git status
+  306  git commit -m "created a new function for searching on mobile search bar and to toggle the hidden class when a color is clicked"
+  307  git push origin issue-5-user-can-delete-favorite-wallpapers 
+  308  git status
+  309  git checkout master
+  310  git status
+  311  git pull origin master
+  312  git status
+  313  pwd
+  314  dev-env
+  315  exit
+  316  git status
+  317  pwd
+  318  cd ~/repos/c0621-code-solutions/
+  319  git status
+  320  cd ~/repos/driving-game/
+  321  git checkout issue-3-start-car 
+  322  git status
+  323  git add main.js
+  324  git add styles.css
+  325  git status
+  326  git commit -m "completed issue-3-start-car"
+  327  git push origin issue-3-start-car
+  328  git status
+  329  git add main.js
+  330  git commit -m "moved code from handleStart to handleKey so there is only one event handler"
+  331  git push origin issue-3-start-car
+  332  git status
+  333  git add main.js
+  334  git status
+  335  git commit -m "took out the conditional from the moveRight function to the local scope and placed the setInterval call within the conditional"
+  336  git push origin issue-3-start-car
+  337  git status
+  338  git add main.js
+  339  git commit -m "in progress"
+  340  git push origin issue-3-start-car
+  341  git checkout master
+  342  cd ~/repos/c0621-code-solutions/
+  343  git status
+  344  git checkout -b http-messages
+  345  cd http-messages
+  346  git status
+  347  http example.org
+  348  http --verbose http://www.example.com
+  349  http --body GET https://jsonplaceholder.typicode.com/users > users.json
+  350  http --body GET https://example.com > index.html
+  351  git status
+  352  git add ./
+  353  git status
+  354  git commit -m "completed http-messages"
+  355  git push origin http-messages
+  356  https httpie.io/hello
+  357  ~ $ https httpie.io/hello
+  358  git status
+  359  git checkout master
+  360  git status
+  361  cd ~/repos
+  362  pwd
+  363  cd ~/repos/c0621-code-solutions/
+  364  git status
+  365  git pull origin master
+  366  git checkout -b javascript-ajax
+  367  git status
+  368  git add javascript-ajax
+  369  git status
+  370  git commit -m "completed javascript-ajax
+  371  "
+  372  git push origin javascript-ajax
+  373  git checkout master
+  374  git pull origin master
+  375  git status
+  376  pwd
+  377  cd ~/repos/ajax-project/
+  378  git status
+  379  git add css/styles.css
+  380  git add index.html
+  381  git add images/AnimeWatchers.png
+  382  git status
+  383  git commit -m "created header for desktop version"
+  384  git push origin issue-1-user-can-view-single-random-anime-from-genre
+  385  git status
+  386  git add css/layout.css
+  387  git add css/styles.css
+  388  git add index.html
+  389  git status
+  390  git commit -m "got header mobile responsive"
+  391  git push origin issue-1-user-can-view-single-random-anime-from-genre
+  392  git status
+  393  git add css/layout.css
+  394  git add css/styles.css
+  395  git add index.html
+  396  git status
+  397  git commit -m "made my form mobile and desktop responsive"
+  398  git push origin issue-1-user-can-view-single-random-anime-from-genre
+  399  git status
+  400  git add css/styles.css
+  401  git add index.html
+  402  git status
+  403  git commit -m "styled the buttons to match the figma"
+  404  git push origin issue-1-user-can-view-single-random-anime-from-genre
+  405  git status
+  406  git add css/layout.css
+  407  git add css/styles.css
+  408  git add index.html
+  409  git add js/main.js
+  410  git add images/blush.png
+  411  git add images/hxh.jpg
+  412  git status
+  413  git commit -m "make dummy content for the search results to mold how the DOM tree should look."
+  414  git push origin issue-1-user-can-view-single-random-anime-from-genre
+  415  git status
+  416  git add index.html
+  417  git add js/main.js
+  418  git status
+  419  git commit -m "get the data needed for the DOM tree,create a form data model,query the DOM for the submit button, create the dom tree function"
+  420  git push origin issue-1-user-can-view-single-random-anime-from-genre
+  421  git status
+  422  git add css/layout.css
+  423  git add css/styles.css
+  424  git add index.html
+  425  git add js/main.js
+  426  git commit -m "ensure the Dom tree created is functioning correctly, add the function to shuffle the data"
+  427  git status
+  428  git add css/layout.css
+  429  git add css/styles.css
+  430  git add index.html
+  431  git add js/main.js
+  432  git status
+  433  git commit -m "Remove all buttons and placeholders that do not serve the functionality of the feature. Remove all console logs. Remove all commented out code. Remove all CSS properties that have no effect. Check all code for proper formatting and indentation. Confirm that there are no errors in the console while using the application. Confirm that all previous functionality still works without errors. Confirm that the user interface looks natural on both mobile and desktop screens. Create GIFs of the feature being used on both mobile and desktop screen sizes for inclusion in Pull Request"
+  434  git push origin issue-1-user-can-view-single-random-anime-from-genre
+  435  git status
+  436  git add css/styles.css
+  437  git status
+  438  git commit -m "took out css that didn't have any utility"
+  439  git push origin issue-1-user-can-view-single-random-anime-from-genre
+  440  git checkout master
+  441  git pull origin master
+  442  git checkout issue-2-user-can-search-by-rating
+  443  git checkout -b issue-2-user-can-search-by-rating
+  444  git status
+  445  git add css/layout.css
+  446  git add css/styles.css
+  447  git add index.html
+  448  git add images/blushnbloom.png
+  449  git add images/blushnobloom.png
+  450  git status
+  451  git commit -m ".width-50 {
+    width: 27%;
+    margin: auto;
+q!
+"
+  452  git push origin issue-2-user-can-search-by-rating
+  453  git status
+  454  git add css/layout.css
+  455  git add css/styles.css
+  456  git add index.html
+  457  git add js/main.js
+  458  git commit -m "access the score data from the api
+ include the score data in the function to search the anime.
+ ensure its including the correct score.
+"
+  459  git push origin issue-2-user-can-search-by-rating
+  460  git status
+  461  git add css/styles.css
+  462  git status
+  463  git commit -m "added functionality to mobile logo"
+  464  git push origin issue-2-user-can-search-by-rating
+  465  git checkout master
+  466  git status
+  467  git checkout master
+  468  git pull origin master
+  469  git status
+  470  git checkout -b issue-3-user-can-view-synopsis-of-anime
+  471  git status
+  472  git add css/layout.css
+  473  git add css/styles.css
+  474  git add index.html
+  475  git add js/main.js
+  476  git status
+  477  git commit -m "created second request function in order to get full synopsis from my xhr response data from the first request function. replaced parameter of the DOM tree function with a data model from the synopsis function and used that data to create the data with a complete synopsis of the anime that is being randomly generated. "
+  478  git push origin issue-3-user-can-view-synopsis-of-anime
+  479  git checkout master
+  480  git pull origin master
+  481  git status
+  482  git checkout -b issue-4-user-can-save-to-a-watch-list
+  483  git status
+  484  git add css/styles.css
+  485  git add index.html
+  486  git add js/main.js
+  487  git status
+  488  git commit -m "create a save button in the DOM tree function."
+  489  git push origin issue-4-user-can-save-to-a-watch-list
+  490  git status
+  491  git add css/styles.css
+  492  git add index.html
+  493  git add js/main.js
+  494  git status
+  495  git commit -m "add another view in html with dummy content to mimic how the dom tree will be created"
+  496  git push origin issue-4-user-can-save-to-a-watch-list
+  497  git status
+  498  git add css/layout.css
+  499  git add css/styles.css
+  500  git add index.html
+  501  git add js/main.js
+  502  git status
+  503  git commit -m "add an event listener to the save button, and create the function for the new dom tree"
+  504  git status
+  505  git add js/main.js
+  506  git status
+  507  git commit -m "add an event listener to the save button, and create the function for the new dom tree"
+  508  git status
+  509  git add js/main.js
+  510  git status
+  511  git commit -m "add an event listener to the save button, and create the function for the new dom tree"
+  512  git push origin issue-4-user-can-save-to-a-watch-list
+  513  npm i lodash
+  514  git status
+  515  git add index.html
+  516  git add js/data.js
+  517  git add js/main.js
+  518  git status
+  519  git add package.json
+  520  git commit -m "in progress with feature 4"
+  521  git push origin issue-4-user-can-save-to-a-watch-list
+  522  git status
+  523  git add css/layout.css
+  524  git add css/styles.css
+  525  git add index.html
+  526  git add js/main.js
+  527  git status
+  528  git commit -m "put the saved entries in the watch list, save it to local storage so it stays on the watchlist. "
+  529  git push origin issue-4-user-can-save-to-a-watch-list
+  530  git status
+  531  git add css/styles.css
+  532  git status
+  533  git commit -m "fixed css styling on logos"
+  534  git push origin issue-4-user-can-save-to-a-watch-list
+  535  git status
+  536  git add css/styles.css
+  537  git status index.html
+  538  git add index.html
+  539  git status
+  540  git commit -m "changed my h2 to anchor tags"
+  541  git push origin issue-4-user-can-save-to-a-watch-list
+  542  git status
+  543  git add css/styles.css
+  544  git status
+  545  git commit -m "added padding to the body to see if it'll fix how it looks on mobile"
+  546  git push origin issue-4-user-can-save-to-a-watch-list
+  547  git status
+  548  git add js/main.js
+  549  git status
+  550  git commit -m "took out the fullAnime global variable and called the addEventListener in the function its created it"
+  551  git push origin issue-4-user-can-save-to-a-watch-list
+  552  git checkout master
+  553  git pull origin master
+  554  git checkout -b issue-5-user-can-delete-an-anime
+  555  git status
+  556  git add css/styles.css
+  557  git add js/main.js
+  558  git status
+  559  git commit -m "added trashcan icon to the side of the pictures in the wallpaper."
+  560  git push origin issue-5-user-can-delete-an-anime
+  561  git status
+  562  git add css/layout.css
+  563  git add css/styles.css
+  564  git add index.html
+  565  git add js/main.js
+  566  git commit -m "add a confirmation screen to the page. if user clicks yes delete it from the page and the local storage. if user clicks no remain on the watch list page. If there are no animes in the list then show 'its not like you have any shows to watch'."
+  567  git push origin issue-5-user-can-delete-an-anime
+  568  git status
+  569  git add css/layout.css
+  570  git add css/styles.css
+  571  js/main.js
+  572  git add js/main.js
+  573  git status
+  574  git add index.html
+  575  git status
+  576  git commit -m "removed all console logs"
+  577  git push origin issue 5-user-can-delete-an-anime
+  578  git push origin issue-5-user-can-delete-an-anime
+  579  git status
+  580  git add css/layout.css
+  581  git add css/styles.css
+  582  git add js/main.js
+  583  git status
+  584  git add css/styles.css
+  585  git status
+  586  git add css/styles.css
+  587  git status
+  588  git commit -m "Create GIFs of the feature being used on both mobile and desktop screen sizes for inclusion in Pull Request."
+  589  git push origin issue-5-user-can-delete-an-anime
+  590  git status
+  591  git pull origin master
+  592  git status
+  593  ~
+  594  git status
+  595  git checkout master
+  596  git status
+  597  git add css/styles.css
+  598  git rm images/blush.png
+  599  git rm images/hxh.jpg
+  600  git rm images/pngwing.com.png
+  601  git add index.html
+  602  git add js/main.js
+  603  git status
+  604  git commit -m working on project-code"
+"
+  605  git status
+  606  git commit -m "working on project-code"
+  607  git status
+  608  git add js/main.js
+  609  git commit -m "working on project-code"
+  610  git checkout master
+  611  git pull origin master
+  612  cd ~/repos/c0621-code-solutions/
+  613  git status
+  614  git checkout -b es6-const-let
+  615  git status
+  616  git add es6-const-let
+  617  git status
+  618  git commit -m "completed es6-const-let
+"
+  619  git push origin es6-const-let
+  620  git checkout master
+  621  git pull origin master
+  622  git status
+  623  git checkout -b es6-template-literals
+  624  git status
+  625  git add es6-template-literals
+  626  git status
+  627  git commit -m "completed es6-template-literals"
+  628  git push origin es6-template-literals
+  629  git checkout master
+  630  git checkout -b es6-destructuring
+  631  git status
+  632  git add es6-destructuring
+  633  git commit -m "completed es6-destructuring"
+  634  git push origin es6-destructuring
+  635  git checkout master
+  636  git pull origin master
+  637  git checkout -b es6-arrow-functions
+  638  git status
+  639  git add es6-arrow-functions
+  640  git commit -m "completed es6-arrow-functions"
+  641  git push origin es6-arrow-functions
+  642  git status
+  643  git checkout master
+  644  git checkout es6-arrow-functions
+  645  git checkout master
+  646  git checkout -b command-line-basics
+  647  cd command-line-basics
+  648  pwd
+  649  man man
+  650  man cat
+  651  man man
+  652  man cat
+  653  cat print laziness.txt
+  654  cat impatience.txt
+  655  cat hubris.txt
+  656  man cat
+  657  cat laziness.txt impatience.txt hubris.txt
+  658  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  659  cat three-virtues.txt
+  660  man ls
+  661  ls command-line-basics
+  662  ls command-line-basics -a
+  663  ls
+  664  ls -a
+  665  ls -F
+  666  ls lfz-staff/
+  667  ls lfz-staff/ -a
+  668  ls lfz-staff/ -F
+  669  man ls
+  670  ls -aF lfz-staff > lfz-staff/contents.txt
+  671  cat lfz-staff/contents.txt
+  672  man pwd
+  673  pwd
+  674  pwd > i-was-here.txt
+  675  ls
+  676  cat i-was-here.txt
+  677  man pwd
+  678  man echo
+  679  echo 'Hello, World!'
+  680  echo 'Hello, World!' > hello.txt
+  681  ls
+  682  cat hello.txt
+  683  man touch
+  684  touch tag-youre-it.txt
+  685  touch tag-youre-it.txt > snoot/
+  686  touch tag-youre-it.txt > snoot
+  687  touch boop.txt > snoot/
+  688  man touch
+  689  ls snoot/
+  690  ls
+  691  ls snoot
+  692  touch snoot > boop.txt
+  693  ls snoot
+  694  man touch
+  695  touch boop.txt > snoot/
+  696  cat boop.txt > snoop
+  697  cat boop.txt > snoot
+  698  cat boop.txt > snoot/
+  699  touch snoot/ > snoot/boop.txt
+  700  man touch
+  701  man mkdir
+  702  touch snoot/boop.txt
+  703  man mkdir
+  704  mkdir parent
+  705  ls
+  706  mkdir -p parent/child/grandchild
+  707  touch parent/child/grandchild.gitkeep
+  708  touch child/.gitkeep
+  709  touch parent/child.gitkeep
+  710  touch parent/.gitkeep
+  711  ls -a
+  712  .
+  713  ls parent -a
+  714  ls child -a
+  715  ls parent/child -a
+  716  ls parent/child/grandchild -a
+  717  touch parent/child/.gitkeep
+  718  touch parent/child/grandchild/.gitkeep
+  719  man mv
+  720  mv pokiemans pokemon
+  721  ls
+  722  man rm
+  723  rm lol.txt
+  724  ls
+  725  rm kill-me/ -r
+  726  ls
+  727  man cp
+  728  cp and-then.txt no-and-then.txt
+  729  ls
+  730  cat and-then.txt no-and-then.txt
+  731  man h istory
+  732  man history
+  733  history
+  734  history > command-history.txt
