@@ -7,7 +7,7 @@ const x = process.argv[2];
 const y = process.argv[4];
 
 if (process.argv[3] === 'plus') {
-  console.log('result:', add(x, y));
+  console.log('result:', add(parseInt(x), parseInt(y)));
 }
 if (process.argv[3] === 'minus') {
   console.log('result:', subtract(x, y));
