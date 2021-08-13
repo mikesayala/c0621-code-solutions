@@ -1,0 +1,10 @@
+{
+  "nextId": 9,
+  "notes": {
+    "1": "The event loop is how a JavaScript runtime pushes asynchronous callbacks onto the stack once the stack is cleared.",
+    "5": "olo",
+    "6": "i drank nothing today",
+    "7": "im full from lunch",
+    "8": "im hungry now"
+  }
+}
