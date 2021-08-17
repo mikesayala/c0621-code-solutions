@@ -24,6 +24,7 @@ app.get('/api/notes/:id', (req, res) => {
     if (note === undefined) {
       res.status(404).json({ error: 'cannot find note with id ' + id });
     }
+    return;
   }
   res.json(note);
 });
@@ -42,10 +43,10 @@ app.post('/api/notes', (req, res) => {
     fs.writeFile('data.json', JSON.stringify(data, null, 2), err => {
       if (err) {
         res.status(500).json({ error: 'An unexpected error occurred.' });
-
+      } else {
+        res.status(201).json(newNote);
       }
     });
-    res.status(201).json(newNote);
   }
 });
 
