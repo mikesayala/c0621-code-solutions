@@ -32,14 +32,13 @@ app.get('/api/grades', (req, res, next) => {
 app.use(express.json());
 
 app.post('/api/grades', (req, res) => {
-  const updatedParams = Object.keys(req.body);
   if (req.body.score < 0 || req.body.score > 100) {
     res.status(400).json({ error: 'invalid grade' });
     return;
   }
 
-  if (updatedParams.length < 3) {
-    res.status(400).json({ error: 'invalid grade missing name, course, or score' });
+  if (typeof req.body.name === 'undefined' || typeof req.body.course === 'undefined' || typeof req.body.score === 'undefined') {
+    res.status(400).json({ error: 'invalid grade: missing name, course, or score' });
     return;
   }
 
@@ -71,7 +70,8 @@ app.put('/api/grades/:gradeId', (req, res) => {
         where  "gradeId" = $4
         returning *
   `;
-  if (id < 0 || !req.body) {
+
+  if (id < 0 || typeof req.body.name === 'undefined' || typeof req.body.course === 'undefined' || typeof req.body.score === 'undefined') {
     if (id < 0) {
       res.status(400).json({ error: 'id must be positive integer' });
     } else {
