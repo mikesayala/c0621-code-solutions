@@ -1,0 +1,43 @@
+button {
+  padding: 5px 25px;
+  font: 25px;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+
+.purple {
+  background-color: rgb(53, 28, 117);
+}
+
+.indigo {
+  background-color: rgb(103, 78, 167);
+}
+
+.orange {
+  background-color: rgb(224, 102, 102);
+}
+
+.tangerine {
+  background-color: rgb(246, 178, 107);
+}
+
+.yellow {
+  background-color: rgb(231, 231, 73);
+}
+
+.white {
+  color: red;
+  border-color: red;
+  background-color: rgb(255, 255, 255);
+}
+
+.purple,
+.indigo,
+.orange {
+  color: rgb(255, 255, 255);
+}
+
+.tangerine,
+.yellow {
+  color: rgb(70, 70, 70);
+}
