@@ -1,0 +1,25 @@
+.row {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+body {
+  height: 100vh;
+}
+
+.circle {
+  width: 200px;
+  align-items: center;
+  height: 200px;
+  margin: auto;
+  border-radius: 100px;
+  border: 3px solid black;
+}
+
+.fas {
+  margin-top: 10px;
+  font-size: 35px;
+}
