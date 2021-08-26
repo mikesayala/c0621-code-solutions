@@ -1,0 +1,29 @@
+.border {
+  position: relative;
+  width: 70px;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 34px;
+}
+
+.button {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 34px;
+  transition: 0.4s;
+}
+
+.active {
+  transform: translateX(30px);
+}
+
+label {
+  position: absolute;
+  left: 75px;
+  top: 10px;
+}
+
+.green {
+  background-color: rgb(47, 214, 47);
+}
