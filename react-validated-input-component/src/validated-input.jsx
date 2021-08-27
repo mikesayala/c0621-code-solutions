@@ -13,7 +13,9 @@ class ValidatedInput extends React.Component {
   }
 
   getErrorMessage() {
-    if (this.state.password.length <= 7) {
+    if (this.state.password.length === 0) {
+      return 'a password is required';
+    } else if (this.state.password.length <= 7) {
       return 'password is too short';
     } else {
       return '';
@@ -22,8 +24,7 @@ class ValidatedInput extends React.Component {
 
   render() {
     const isPassword = this.state.password;
-    if (isPassword) {
-      return (
+    return (
       <>
       <form>
         <div>
@@ -34,21 +35,7 @@ class ValidatedInput extends React.Component {
       </form>
       <p>{this.getErrorMessage()}</p>
       </>
-      );
-    } else {
-      return (
-      <>
-      <form>
-        <div>
-          <label>Password</label>
-        </div>
-        <input type="password" onChange={this.handleInput} value={this.state.value}></input>
-         <i className={`${isPassword ? 'fas fa-thumbs-up green' : 'fas fa-thumbs-down red'}`}></i>
-      </form>
-      <p>a password is required</p>
-      </>
-      );
-    }
+    );
   }
 }
 
