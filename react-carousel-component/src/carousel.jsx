@@ -12,8 +12,7 @@ class Carousel extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      activeIndex: 0,
-      photo: 'https://cdn.vox-cdn.com/thumbor/heXu37IbDvVy6Qbo1wbPjNvi6Ys=/0x0:712x423/1200x800/filters:focal(385x120:497x232)/cdn.vox-cdn.com/uploads/chorus_image/image/55531035/Screen_Shot_2017_06_30_at_3.17.00_PM.0.png'
+      activeIndex: 0
     };
     this.goToNextSlide = this.goToNextSlide.bind(this);
     this.goToPrevSlide = this.goToPrevSlide.bind(this);
