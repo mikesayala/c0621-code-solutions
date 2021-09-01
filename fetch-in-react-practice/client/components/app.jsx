@@ -74,11 +74,11 @@ export default class App extends React.Component {
      * And specify the "Content-Type" header as "application/json"
      */
 
-    const id = this.state.todos.findIndex(todo =>
+    const index = this.state.todos.findIndex(todo =>
       todo.todoId === todoId
     );
     const opposite = {
-      isCompleted: !this.state.todos[id].isCompleted
+      isCompleted: !this.state.todos[index].isCompleted
     };
 
     fetch(`/api/todos/${todoId}`, {
@@ -88,9 +88,10 @@ export default class App extends React.Component {
     })
       .then(res => res.json())
       .then(updatedData => {
-        this.state.todos.splice(id, 1, updatedData);
+        const copiedStateTodosArray = [...this.state.todos];
+        copiedStateTodosArray.splice(index, 1, updatedData);
         this.setState({
-          todos: this.state.todos
+          todos: copiedStateTodosArray
         });
       });
   }
