@@ -1,0 +1,34 @@
+User can sign up
+
+When a user enters types an input to enter a username the handleChange method gets called.
+It passes a new state object as an argument that updates the state of the AuthForm class.
+ The same thing happens when the user enters a password. The handleChange method gets called
+ and passes a new state object to the password property and updates the state. When the user
+ clicks the register button it toggles the handleSubmit method in the Auth-form which sends a
+ fetch request with a post method. The state components get stringified. Then a promise object is
+ returned and gets parsed from JSON back to a javascript object. Since the action was a sign-up action the
+ window.location.hash changes to the sign-in screen.
+
+ User can sign in
+
+ When a user enters their username and password into the inputs the handleChange method gets toggle like with signing up.
+ When the user hits the log in button the values of the username and password will become part of the req.body in a fetch request.
+ The fetch request will send the values to the server and the server is going to check if the username and password are in the database.
+ If there is no record of username and password the server will send back an error response. The server queries the database for the userId
+ and password that would match userId and password in the database. The query returns a promise object. If there is a user it will run argon2.verify()
+ method that tests to see if the hashedPassword matches the password that was entered. If it matches then it generates a token that only works for the
+ userId and username of the user. If it doesn't match then the client will get a error response. THe token and user object are then sent to the AuthForm
+ which passes the result into this.props.onSignIn. From there We go to the auth.jsx file which then takes us to the app.jsx where the user and token
+ are destructured. The token is stored in local storage and the state user property will be updated to reflect the users info.
+
+
+user can stay logged in.
+
+After rendering the page with componentDidMount it checks for a token saved in localstorage. If there is one it sends the token
+to the decodeToken function. It gets passed into the atob function which then gets parsed into a javascript object and is assigned
+to the variable payload. Payload is then returned from the function and is assigned to the user property of this.state in the Apps.jsx file
+
+User can sign out
+
+When user clicks the signout button it removes the token from local storage and updates the this.state user property to null.
+The app gets re-rendered and returns to the splash page. 
