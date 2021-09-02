@@ -1,7 +1,7 @@
 User can sign up
 
-When a user enters types an input to enter a username the handleChange method gets called.
-It passes a new state object as an argument that updates the state of the AuthForm class.
+When a user enters types an input to enter a username the handleChange method gets called from authform.jsx.
+the name and value properties of the event.target get destructured and It passes a new state object as an argument that updates the state of the AuthForm class.
  The same thing happens when the user enters a password. The handleChange method gets called
  and passes a new state object to the password property and updates the state. When the user
  clicks the register button it toggles the handleSubmit method in the Auth-form which sends a
@@ -31,4 +31,4 @@ to the variable payload. Payload is then returned from the function and is assig
 User can sign out
 
 When user clicks the signout button it removes the token from local storage and updates the this.state user property to null.
-The app gets re-rendered and returns to the splash page. 
+The app gets re-rendered and returns to the splash page.
